@@ -1,0 +1,144 @@
+// Style cho tiêu đề
+h1 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+// Style cho tiêu đề h2
+h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+// Style cho tiêu đề h3
+h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+// Style cho tiêu đề h4
+h4 {
+    font-size: 1.1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+// Style cho tiêu đề h5
+h5 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+// Style cho tiêu đề h6
+h6 {
+    font-size: 0.9rem;
+    color: #333;
+    margin-bottom: 1rem;
+}
+
+
+// Style cho đoạn văn
+p {
+    font-size: 1rem;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+}
+
+// Style cho danh sách
+ul,
+ol {
+    margin-bottom: 1.5rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
+// Style cho liên kết
+a {
+    color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #0056b3;
+}
+
+// Style cho hình ảnh
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+}
+
+// Style cho blockquote
+blockquote {
+    margin-left: 0;
+    padding-left: 1rem;
+    border-left: 4px solid #007bff;
+    color: #666;
+    font-style: italic;
+}
+
+// Style cho mã nguồn
+pre {
+    background-color: #f8f9fa;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-bottom: 1.5rem;
+    overflow-x: auto;
+}
+
+// Style cho inline mã nguồn
+code {
+    background-color: #f8f9fa;
+    padding: 0.2rem 0.4rem;
+    border-radius: 0.3rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+// Style cho bảng
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+}
+
+th,
+td {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+}
+
+th {
+    background-color: #f8f9fa;
+}
+
+// Style cho chú thích chân trang
+footnote {
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.js-toc {
+    .node-name--H1 {
+        color: #333;
+        padding-bottom: 10px;
+    }
+
+    .node-name--H2 {
+        color: #333;
+    }
+
+    .node-name--H3 {
+        color: #333;
+    }
+}

@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.ant-avatar-img {
+  object-fit: cover;
+  /* Đảm bảo ảnh sẽ được hiển thị đúng tỷ lệ */
+  object-position: center;
+  /* Căn giữa ảnh */
+}
