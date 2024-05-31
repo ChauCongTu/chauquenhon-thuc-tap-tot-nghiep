@@ -35,13 +35,13 @@ const CategorySection = () => {
                                             <div className="flex items-center">
                                                 <div className="uppercase bg-indigo-700 shadow px-2 rounded-md text-sm">{value.name}</div>
                                                 <div className="ml-3">
-                                                    <FileOutlined /> {value.post_count} bài đọc
+                                                    <FileOutlined /> {value.post_count} bài dọc
                                                 </div>
                                             </div>
                                             <div className="text-4xl py-5 font-bold">{value.summary}</div>
                                             <div>
                                                 {
-                                                    value.posts.map((post, index) => (
+                                                    value.posts.slice(0, 5).map((post, index) => (
                                                         <div key={post.id} className="my-3 text-lg">
                                                             <Link to={`${post.slug}`} className="text-white hover:text-white hover:border-l hover:pl-3">{++index}. {post.title}</Link>
                                                         </div>

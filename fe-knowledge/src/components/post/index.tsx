@@ -71,7 +71,7 @@ const Post = () => {
         setLoading(true);
         const content = document.querySelector('.prose') as HTMLElement | null;
         if (content) {
-            const headings = content.querySelectorAll('h1, h2, h3, h4, h5, h6, h7');
+            const headings = content.querySelectorAll('h1, h2, h3');
             const headingMap: { [id: string]: number } = {};
 
             headings.forEach((heading: any) => {
@@ -116,8 +116,8 @@ const Post = () => {
                         <div className="flex flex-wrap mt-5">
                             <div className="w-full lg:w-2/3">
                                 <div className="mr-14">
-                                    <div className="prose max-w-full w-full">
-                                        <div dangerouslySetInnerHTML={{ __html: post.content ? post.content : '' }} />
+                                    <div className=" max-w-full w-full">
+                                        <div className="prose" dangerouslySetInnerHTML={{ __html: post.content ? post.content : '' }} />
                                     </div>
                                     <div className="mt-5 flex border-t border-gray-400 pt-5">
                                         <div className="mr-5">Tags:</div>

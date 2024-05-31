@@ -1,3 +1,4 @@
+"use client"
 import { ReactNode, createContext, useContext, useEffect, useState } from "react";
 import { getCookie, setCookie, removeCookie } from "../utils/cookie";
 import { getUserInfo } from "../modules/users/service/user";
